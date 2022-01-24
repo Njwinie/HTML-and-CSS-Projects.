@@ -6,5 +6,6 @@ function my_Dictionary() {
         Year: 2022
         Color: "White"
     };
-    document.getElementById("Dictionary").innerHTML = Animal.Sound;
+    delete Car.Color;
+    document.getElementById("Dictionary").innerHTML = Car.Color;
 }
